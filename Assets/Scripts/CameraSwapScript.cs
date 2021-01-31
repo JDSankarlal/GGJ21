@@ -7,7 +7,8 @@ public class CameraSwapScript : MonoBehaviour
 
     private Animator animator;
     private int camCount = 4;
-    private int currentCam = 1;
+    public static int currentCam = 1;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -41,5 +42,5 @@ public class CameraSwapScript : MonoBehaviour
         }
         animator.Play("Camera " + currentCam);    
        
-    }
+    }      
 }
