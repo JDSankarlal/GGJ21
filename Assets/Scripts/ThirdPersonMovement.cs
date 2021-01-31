@@ -23,7 +23,8 @@ public class ThirdPersonMovement : MonoBehaviour
         if (dir.magnitude >= 0.1f)
         {
             //Angle to look at
-            float targetAngle = Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg;
+            float targetAngle = Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg + cam.eulerAngles.y; //Keeps movement based on orientation of camera
+            //float targetAngle = Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg; //Original movement
             //Smooths the rotation
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
