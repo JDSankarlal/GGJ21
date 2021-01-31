@@ -22,12 +22,6 @@ public class ThirdPersonMovement : MonoBehaviour
     bool isGrounded;
 
     Scene scene;
-    private FMOD.Studio.EventInstance doorInst;
-    private FMOD.Studio.EventInstance endlvlInst;
-
-    void Awake()
-    {
-    }
     Vector3 velocity;
     // Update is called once per frame
 
@@ -82,51 +76,34 @@ public class ThirdPersonMovement : MonoBehaviour
             if (scene.name == "Level 1")
             {
                 Debug.Log("COLLIDE");
-                endLevelSounds();
                 SceneManager.LoadScene("Level 2");
                 hasKey = false;
             }
             if (scene.name == "Level 2")
             {
-                endLevelSounds();
                 SceneManager.LoadScene("Level 3");
                 hasKey = false;
             }
             if (scene.name == "Level 3")
             {
-                endLevelSounds();
                 SceneManager.LoadScene("Level 4");
                 hasKey = false;
             }
             if (scene.name == "Level 4")
             {
-                endLevelSounds();
                 SceneManager.LoadScene("Level 5");
                 hasKey = false;
             }
             if (scene.name == "Level 5")
             {
-                endLevelSounds();
                 SceneManager.LoadScene("Level 6");
                 hasKey = false;
             }
             if (scene.name == "Level 6")
             {
-                endLevelSounds();
                 SceneManager.LoadScene("Level 7");
                 hasKey = false;
             }
         }
     }
-
-    void endLevelSounds() {
-        doorInst = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Door");
-        doorInst.start();
-        doorInst.release();
-
-        endlvlInst = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Level Complete");
-        endlvlInst.start();
-        endlvlInst.release();
-    }
-
 }
