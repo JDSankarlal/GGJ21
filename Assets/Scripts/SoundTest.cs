@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -39,7 +39,7 @@ public class SoundTest : MonoBehaviour
         }
 
         if (Input.GetKey(KeyCode.Space)) {
-            SceneManager.LoadScene("Level 2");
+            SceneManager.LoadScene("Level 1");
         }
     }
 }
