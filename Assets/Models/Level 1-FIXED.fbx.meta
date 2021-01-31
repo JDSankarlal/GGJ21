@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 38a85a9e933031546a64d00480abfd4e
+=======
+<<<<<<< HEAD:Assets/Models/Inifnity Shape FIXED.fbx.meta
+guid: b947fa18a18a34f40bac40a424a43145
+=======
+guid: b4bb932d6c2c6984890edc1340e7afc1
+>>>>>>> Sounds:Assets/Models/Level 1-FIXED.fbx.meta
+>>>>>>> Sounds
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []

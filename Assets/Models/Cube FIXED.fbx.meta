@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/Models/Cube FIXED.fbx.meta
 guid: dac98a3998ca9b6499ca21d2e1c446b6
+=======
+guid: a7ba3967ec0c9b04fba1fbaee3da6494
+>>>>>>> Sounds:Assets/Models/Distorted Shape FIXED.fbx.meta
+=======
+guid: e814524115215c84788101f72bd540c7
+>>>>>>> Sounds
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []

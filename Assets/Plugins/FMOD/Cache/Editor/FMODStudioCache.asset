@@ -104,7 +104,11 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
+<<<<<<< HEAD
   lastModified: 637477014492702466
+=======
+  lastModified: 637477015791871306
+>>>>>>> Sounds
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -146,7 +150,11 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
+<<<<<<< HEAD
   lastModified: 637477014492707467
+=======
+  lastModified: 637477015791876112
+>>>>>>> Sounds
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -181,9 +189,33 @@ MonoBehaviour:
   - {fileID: -3052278057818071104}
   StringsBanks:
   - {fileID: -688268481510230392}
+<<<<<<< HEAD
   stringsBankWriteTime: 637477014492707467
+=======
+  stringsBankWriteTime: 637477015791876112
+>>>>>>> Sounds
   cacheVersion: 6
 --- !u!114 &1608118993137127947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Omega Level Vibes/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 1
+  Max: 7
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &2912806012540919583
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -218,7 +250,11 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
+<<<<<<< HEAD
   lastModified: 637477014493312990
+=======
+  lastModified: 637477015792586725
+>>>>>>> Sounds
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -260,7 +296,11 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
+<<<<<<< HEAD
   lastModified: 637477014493267950
+=======
+  lastModified: 637477015792526673
+>>>>>>> Sounds
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -284,7 +324,11 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
+<<<<<<< HEAD
   - {fileID: -3570553751376751357}
+=======
+  - {fileID: 2912806012540919583}
+>>>>>>> Sounds
   MinDistance: 0
   MaxDistance: 0
   Length: 307200

@@ -1,12 +1,12 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
-<<<<<<< HEAD:Assets/Models/Inifnity Shape FIXED.fbx.meta
-guid: b947fa18a18a34f40bac40a424a43145
+guid: dac98a3998ca9b6499ca21d2e1c446b6
 =======
-guid: b4bb932d6c2c6984890edc1340e7afc1
->>>>>>> Sounds:Assets/Models/Level 1-FIXED.fbx.meta
+<<<<<<< HEAD:Assets/Models/Boxman_mesh.FBX.meta
+guid: f1fff3cb74300cb448e38ec6cfc13161
 =======
-guid: 1ce08a0ab94d7444ea21dbfc4c02b496
+guid: e814524115215c84788101f72bd540c7
+>>>>>>> Sounds:Assets/Models/Cube FIXED.fbx.meta
 >>>>>>> Sounds
 ModelImporter:
   serializedVersion: 20101

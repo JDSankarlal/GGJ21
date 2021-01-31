@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Models/Boxman_mesh.FBX.meta
 guid: f1fff3cb74300cb448e38ec6cfc13161
+=======
+guid: e814524115215c84788101f72bd540c7
+>>>>>>> Sounds:Assets/Models/Cube FIXED.fbx.meta
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
