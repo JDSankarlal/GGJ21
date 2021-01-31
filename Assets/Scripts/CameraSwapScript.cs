@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class CameraSwapScript : MonoBehaviour
 {
 
+    public GameObject triggerBox;
+    CinemachineVirtualCamera[] children;
     private Animator animator;
     private int camCount = 4;
     private int currentCam = 1;
@@ -14,6 +17,11 @@ public class CameraSwapScript : MonoBehaviour
     void Awake()
     {
         animator = GetComponent<Animator>();
+    }
+
+    void Start()
+    {
+     
     }
 
     // Update is called once per frame
@@ -49,5 +57,16 @@ public class CameraSwapScript : MonoBehaviour
         }
         animator.Play("Camera " + currentCam);    
        
+    }
+
+    void OnTriggerEnter(Collision hit)
+    {
+        if(hit.transform.tag == "Player")
+        {
+            foreach (CinemachineVirtualCamera vcam in transform)
+            {
+
+            }
+        }
     }
 }
