@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{54e44cfb-11a1-4f17-b993-cfc407e5a9a6}">
+		<property name="assetPath">
+			<value>Music/Bassline/Bass Synth 1/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{94f06149-9662-4098-baf7-846723f3ca9d}</destination>
+		</relationship>
+	</object>
+</objects>

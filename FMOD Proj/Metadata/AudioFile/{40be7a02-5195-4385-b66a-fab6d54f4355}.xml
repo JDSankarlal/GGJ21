@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{40be7a02-5195-4385-b66a-fab6d54f4355}">
+		<property name="assetPath">
+			<value>Music/Scatterers/High Scatterer/High Scatterer #8.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>20.256258503401362</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{94f06149-9662-4098-baf7-846723f3ca9d}</destination>
+		</relationship>
+	</object>
+</objects>
