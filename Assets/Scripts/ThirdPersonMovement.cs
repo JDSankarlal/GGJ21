@@ -6,19 +6,21 @@ using UnityEngine.SceneManagement;
 public class ThirdPersonMovement : MonoBehaviour
 {
     public CharacterController controller;
-    public Transform cam;
+    //public Transform cam;
     public float speed = 6f;
     public float turnSmoothTime = 0.1f;
     public bool hasKey = false;
     float turnSmoothVelocity;
-
+    Scene scene;
     void Awake()
     {
     }
 
     void Start()
     {
-
+        scene = SceneManager.GetActiveScene();
+        if (scene.name == "Level 1")
+            hasKey = true;
     }
 
     // Update is called once per frame
@@ -46,7 +48,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
     void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        Scene scene = SceneManager.GetActiveScene();
+       
 
         if (hit.transform.tag == "Key")
         {
