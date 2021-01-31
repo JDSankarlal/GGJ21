@@ -9,12 +9,11 @@ public class ThirdPersonMovement : MonoBehaviour
     public Transform cam;
     public float speed = 6f;
     public float turnSmoothTime = 0.1f;
+    public bool hasKey = false;
     float turnSmoothVelocity;
 
     void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
-
     }
 
     void Start()
@@ -48,32 +47,45 @@ public class ThirdPersonMovement : MonoBehaviour
     void OnControllerColliderHit(ControllerColliderHit hit)
     {
         Scene scene = SceneManager.GetActiveScene();
-        if (hit.transform.tag == "Door")
+
+        if (hit.transform.tag == "Key")
+        {
+            hasKey = true;
+            Destroy(hit.gameObject);
+        }
+        
+        if (hit.transform.tag == "Door" && hasKey)
         {
             if (scene.name == "Level 1")
             {
                 Debug.Log("COLLIDE");
                 SceneManager.LoadScene("Level 2");
+                hasKey = false;
             }
             if (scene.name == "Level 2")
             {
                 SceneManager.LoadScene("Level 3");
+                hasKey = false;
             }
             if (scene.name == "Level 3")
             {
                 SceneManager.LoadScene("Level 4");
+                hasKey = false;
             }
             if (scene.name == "Level 4")
             {
                 SceneManager.LoadScene("Level 5");
+                hasKey = false;
             }
             if (scene.name == "Level 5")
             {
                 SceneManager.LoadScene("Level 6");
+                hasKey = false;
             }
             if (scene.name == "Level 6")
             {
                 SceneManager.LoadScene("Level 7");
+                hasKey = false;
             }
         }
     }
