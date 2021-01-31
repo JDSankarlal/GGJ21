@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ThirdPersonMovement : MonoBehaviour
 {
@@ -11,6 +12,11 @@ public class ThirdPersonMovement : MonoBehaviour
 
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
+
+    void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
 
     // Update is called once per frame
     void Update()
@@ -33,5 +39,12 @@ public class ThirdPersonMovement : MonoBehaviour
 
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
+    }
+
+      void OnControllerColliderHit()
+    {
+         Debug.Log("COLLIDE");
+         SceneManager.LoadScene("Level 2");
+        
     }
 }
