@@ -130,7 +130,7 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637477094874836391
+  lastModified: 637477015791876112
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -151,7 +151,7 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 637477094875441914
+  lastModified: 637477015792586725
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -170,9 +170,29 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637477094874836391
+  lastModified: 637477015791871306
   LoadResult: 0
   FileSizes: []
+  Exists: 1
+--- !u!114 &-3731049913380631951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Omega Level Vibes/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 1
+  Max: 7
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &-3570553751376751357
 MonoBehaviour:
@@ -309,7 +329,7 @@ MonoBehaviour:
   - {fileID: -4965241481570565624}
   StringsBanks:
   - {fileID: -6138646297633946656}
-  stringsBankWriteTime: 637477094874836391
+  stringsBankWriteTime: 637477015791876112
   cacheVersion: 6
 --- !u!114 &8053451259168062
 MonoBehaviour:
@@ -331,7 +351,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 8142040363005466705}
+  - {fileID: -3731049913380631951}
   MinDistance: 0
   MaxDistance: 0
   Length: 307200
@@ -521,7 +541,7 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637477094875391870
+  lastModified: 637477015792526673
   LoadResult: 0
   FileSizes: []
   Exists: 1
