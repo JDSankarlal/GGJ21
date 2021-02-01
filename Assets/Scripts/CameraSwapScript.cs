@@ -57,9 +57,4 @@ public class CameraSwapScript : MonoBehaviour
         animator.Play("Camera " + currentCam);    
        
     }
-
-    void OnTriggerEnter(Collision hit)
-    {
-        
-    }
 }

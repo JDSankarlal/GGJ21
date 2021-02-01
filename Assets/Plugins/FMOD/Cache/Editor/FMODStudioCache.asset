@@ -130,7 +130,7 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637477015791876112
+  lastModified: 637477186221020431
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -151,7 +151,7 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 637477015792586725
+  lastModified: 637477186221781120
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -170,7 +170,7 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637477015791871306
+  lastModified: 637477186221010418
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -279,6 +279,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2313
+--- !u!114 &-910467203152994016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Omega Level Vibes/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 1
+  Max: 7
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-688268481510230392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,7 +349,7 @@ MonoBehaviour:
   - {fileID: -4965241481570565624}
   StringsBanks:
   - {fileID: -6138646297633946656}
-  stringsBankWriteTime: 637477015791876112
+  stringsBankWriteTime: 637477186221020431
   cacheVersion: 6
 --- !u!114 &8053451259168062
 MonoBehaviour:
@@ -351,7 +371,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -3731049913380631951}
+  - {fileID: -910467203152994016}
   MinDistance: 0
   MaxDistance: 0
   Length: 307200
@@ -541,7 +561,7 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637477015792526673
+  lastModified: 637477186221721066
   LoadResult: 0
   FileSizes: []
   Exists: 1
