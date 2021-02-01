@@ -23,27 +23,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 9050
---- !u!114 &-8486731345815078869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD Proj/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 637477015791876112
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 1128
-  Exists: 1
 --- !u!114 &-8427741566828724704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,30 +46,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 13893
---- !u!114 &-8410910655341102989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Omega Level Vibes
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Omega Level Vibes
-  guid: 65f5c9b6821ff64586a863ec5dd53954
-  Banks:
-  - {fileID: 338513574047774734}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -5740643458198752901}
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 307200
 --- !u!114 &-7485993402456441658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,7 +69,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 13162
---- !u!114 &-7001202865082122213
+--- !u!114 &-6994344296488364705
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,20 +79,102 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Level Complete
+  m_Name: event:/SFX/SpinLeft
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Level Complete
-  guid: 61e751e8bf273943b0bc035d8d27b6ac
+  Path: event:/SFX/SpinLeft
+  guid: ec083653a596ea49b4027c36640e6e63
   Banks:
-  - {fileID: 7571662592252571130}
+  - {fileID: -5965880102731920876}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 18081
---- !u!114 &-5740643458198752901
+  Length: 13893
+--- !u!114 &-6625626681444703011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Door
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Door
+  guid: a9d21ed9c6ddd74aac489f7b8bce3cbf
+  Banks:
+  - {fileID: -5965880102731920876}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2313
+--- !u!114 &-6138646297633946656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD Proj/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637477094874836391
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1128
+  Exists: 1
+--- !u!114 &-5965880102731920876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD Proj/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 637477094875441914
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4965241481570565624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD Proj/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637477094874836391
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-3570553751376751357
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,10 +209,33 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637477015791871306
+  lastModified: 637477014492702466
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-2941079083363525890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI
+  guid: 47059dff4ac5994ebbb7457a9faa94e3
+  Banks:
+  - {fileID: -5965880102731920876}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 9050
 --- !u!114 &-2023542772116519980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,25 +259,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2313
---- !u!114 &-1668325490611611617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD Proj/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 637477015791871306
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
 --- !u!114 &-688268481510230392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,7 +274,7 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637477015791876112
+  lastModified: 637477014492707467
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -252,25 +293,25 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -8486731345815078869}
-  - {fileID: -1668325490611611617}
-  - {fileID: 338513574047774734}
-  - {fileID: 7571662592252571130}
+  - {fileID: -6138646297633946656}
+  - {fileID: -4965241481570565624}
+  - {fileID: 9001872431394394320}
+  - {fileID: -5965880102731920876}
   EditorEvents:
-  - {fileID: -8410910655341102989}
-  - {fileID: 523508230627498385}
-  - {fileID: 3723238073405380809}
-  - {fileID: -7001202865082122213}
-  - {fileID: 90911188057472256}
-  - {fileID: 5795646441350712135}
+  - {fileID: 8053451259168062}
+  - {fileID: 3230733638624477080}
+  - {fileID: -2941079083363525890}
+  - {fileID: 8671932349798492136}
+  - {fileID: -6625626681444703011}
+  - {fileID: -6994344296488364705}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -1668325490611611617}
+  - {fileID: -4965241481570565624}
   StringsBanks:
-  - {fileID: -8486731345815078869}
-  stringsBankWriteTime: 637477015791876112
+  - {fileID: -6138646297633946656}
+  stringsBankWriteTime: 637477094874836391
   cacheVersion: 6
---- !u!114 &90911188057472256
+--- !u!114 &8053451259168062
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -280,61 +321,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Door
+  m_Name: event:/Music/Omega Level Vibes
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Door
-  guid: a9d21ed9c6ddd74aac489f7b8bce3cbf
+  Path: event:/Music/Omega Level Vibes
+  guid: 65f5c9b6821ff64586a863ec5dd53954
   Banks:
-  - {fileID: 7571662592252571130}
+  - {fileID: 9001872431394394320}
   IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8142040363005466705}
   MinDistance: 0
   MaxDistance: 0
-  Length: 2313
---- !u!114 &338513574047774734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD Proj/Build/Desktop/Music.bank
-  Name: Music
-  StudioPath: bank:/Music
-  lastModified: 637477015792526673
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &523508230627498385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/SpinRight
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/SpinRight
-  guid: 2c31dd58af1d9340aaa29ba0d6d9da0e
-  Banks:
-  - {fileID: 7571662592252571130}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 13162
+  Length: 307200
 --- !u!114 &1608118993137127947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -355,27 +355,7 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
---- !u!114 &2912806012540919583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Omega Level Vibes/Level
-  m_EditorClassIdentifier: 
-  Name: Level
-  Min: 1
-  Max: 7
-  Default: 1
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &3723238073405380809
+--- !u!114 &3230733638624477080
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -385,19 +365,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/UI
+  m_Name: event:/SFX/SpinRight
   m_EditorClassIdentifier: 
-  Path: event:/SFX/UI
-  guid: 47059dff4ac5994ebbb7457a9faa94e3
+  Path: event:/SFX/SpinRight
+  guid: 2c31dd58af1d9340aaa29ba0d6d9da0e
   Banks:
-  - {fileID: 7571662592252571130}
-  IsStream: 0
+  - {fileID: -5965880102731920876}
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 9050
+  Length: 13162
 --- !u!114 &5701844401947370114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -413,33 +393,10 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 637477015792586725
+  lastModified: 637477014493312990
   LoadResult: 0
   FileSizes: []
   Exists: 1
---- !u!114 &5795646441350712135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/SpinLeft
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/SpinLeft
-  guid: ec083653a596ea49b4027c36640e6e63
-  Banks:
-  - {fileID: 7571662592252571130}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 13893
 --- !u!114 &6122962156191426728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,7 +435,7 @@ MonoBehaviour:
   Path: FMOD Proj/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637477015792526673
+  lastModified: 637477014493267950
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -502,11 +459,54 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 2912806012540919583}
+  - {fileID: -3570553751376751357}
   MinDistance: 0
   MaxDistance: 0
   Length: 307200
---- !u!114 &7571662592252571130
+--- !u!114 &8142040363005466705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Omega Level Vibes/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 1
+  Max: 7
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &8671932349798492136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Level Complete
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Level Complete
+  guid: 61e751e8bf273943b0bc035d8d27b6ac
+  Banks:
+  - {fileID: -5965880102731920876}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 18081
+--- !u!114 &9001872431394394320
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -516,12 +516,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX.bank
+  m_Name: bank:/Music.bank
   m_EditorClassIdentifier: 
-  Path: FMOD Proj/Build/Desktop/SFX.bank
-  Name: SFX
-  StudioPath: bank:/SFX
-  lastModified: 637477015792586725
+  Path: FMOD Proj/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 637477094875391870
   LoadResult: 0
   FileSizes: []
   Exists: 1

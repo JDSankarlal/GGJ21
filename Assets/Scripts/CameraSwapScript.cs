@@ -1,25 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class CameraSwapScript : MonoBehaviour
 {
 
+    public GameObject triggerBox;
+    CinemachineVirtualCamera[] children;
     private Animator animator;
     private int camCount = 4;
     private int currentCam = 1;
     private FMOD.Studio.EventInstance spinLeftInst;
     private FMOD.Studio.EventInstance spinRightInst;
-
-
     // Start is called before the first frame update
     void Awake()
     {
         animator = GetComponent<Animator>();
     }
 
+    void Start()
+    {
+     
+    }
+
     // Update is called once per frame
-    void Update()
+  void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
@@ -51,5 +57,16 @@ public class CameraSwapScript : MonoBehaviour
         }
         animator.Play("Camera " + currentCam);    
        
+    }
+
+    void OnTriggerEnter(Collision hit)
+    {
+        if(hit.transform.tag == "Player")
+        {
+            foreach (CinemachineVirtualCamera vcam in transform)
+            {
+
+            }
+        }
     }
 }
