@@ -9,7 +9,7 @@
 [LOG] DownMix::init                            : done.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000022060E72738 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000016AA71268C8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -17,14 +17,1153 @@
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC3B9C7D8 : node = 00000169D52C94C0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9C7D8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000169D52C95D0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='High Lead 1', format=5, channels=2, frequency=48000, lengthbytes=166048, lengthpcm=693299, pcmblocksize=0, loopstart=0, loopend=115199, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.049225.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9C7D8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9FC28
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9FC28
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC3B9B038 : node = 0000016A3D3B4820
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9B038
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 530432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5120
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D3B4930
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Spin Left', format=5, channels=2, frequency=48000, lengthbytes=158144, lengthpcm=666899, pcmblocksize=0, loopstart=0, loopend=115199, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.239166.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9B038
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9E488
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9E488
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC3B9E998 : node = 00000169D52C9100
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9E998
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 530432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5120
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000169D52C9210
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Spin Right', format=5, channels=2, frequency=48000, lengthbytes=150208, lengthpcm=631799, pcmblocksize=0, loopstart=0, loopend=115199, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.150604.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9E998
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9F8C8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9F8C8
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC3B9A2B8 : node = 0000016854D8ABE0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9A2B8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016854D8ACF0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Scatterer II 1', format=5, channels=2, frequency=48000, lengthbytes=141056, lengthpcm=525600, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.186768.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9A2B8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA24A8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA24A8
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC3BA5748 : node = 0000016A3D3B59A0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA5748
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 530432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5120
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D3B5AB0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Spin Right', format=5, channels=2, frequency=48000, lengthbytes=150208, lengthpcm=631799, pcmblocksize=0, loopstart=0, loopend=115199, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.150604.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA5748
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA5FB8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA5FB8
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC3BA6168 : node = 0000016A3D57D870
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA6168
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 530432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5120
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D980
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Spin Right', format=5, channels=2, frequency=48000, lengthbytes=150208, lengthpcm=631799, pcmblocksize=0, loopstart=0, loopend=115199, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.150604.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA6168
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA6828
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA6828
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC3BA75A8 : node = 0000016A3D57C970
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA75A8
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016AC3BA8B98 : node = 0000016A3D57C330
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57CA80
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Mid Lead 2', format=5, channels=2, frequency=48000, lengthbytes=136800, lengthpcm=602099, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.120300.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA75A8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA8B98
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57C440
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='High Lead 1', format=5, channels=2, frequency=48000, lengthbytes=166048, lengthpcm=693299, pcmblocksize=0, loopstart=0, loopend=115199, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.049225.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA8B98
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA9408
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA9408
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C6A148
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C6A148
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C6B228 : node = 0000016A3D57D9B0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C6B228
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 530432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5120
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57DAC0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Spin Left', format=5, channels=2, frequency=48000, lengthbytes=158144, lengthpcm=666899, pcmblocksize=0, loopstart=0, loopend=115199, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.239166.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C6B228
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C651F8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C651F8
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C5FA38 : node = 0000016A3D57CBF0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C5FA38
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 530432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5120
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57CD00
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Spin Left', format=5, channels=2, frequency=48000, lengthbytes=158144, lengthpcm=666899, pcmblocksize=0, loopstart=0, loopend=115199, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.239166.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C5FA38
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C60608
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C60608
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C63398 : node = 0000016A3D57D5F0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C63398
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D700
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Scatterer II 1', format=5, channels=2, frequency=48000, lengthbytes=141056, lengthpcm=525600, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.186768.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C63398
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C607B8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C607B8
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C5E448 : node = 0000016A3D57CFB0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C5E448
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSound                     :     filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016AC4C63C08 : node = 0000016A3D57D0F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D0C0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016AC4C5E958 : node = 0000016A3D57D370
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 1
+[LOG] SystemI::createSound                     :     filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016AC4C60968 : node = 0000016A3D57C6F0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 2
+[LOG] SystemI::createSound                     :     filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016A62188FE8 : node = 0000016A3D57D4B0
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Mid Lead 2', format=5, channels=2, frequency=48000, lengthbytes=136800, lengthpcm=602099, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.120300.
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 3
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C5E448
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C63C08
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D200
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Scatterer II 1', format=5, channels=2, frequency=48000, lengthbytes=141056, lengthpcm=525600, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.186768.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C63C08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C5E958
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D480
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='High Scatterer #3', format=5, channels=2, frequency=48000, lengthbytes=172288, lengthpcm=750299, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.113617.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C5E958
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C60968
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57C800
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass 1', format=5, channels=2, frequency=48000, lengthbytes=311264, lengthpcm=1262700, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.227112.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C60968
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016A62188FE8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D5C0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Ambient Scatterer 1', format=5, channels=2, frequency=48000, lengthbytes=125280, lengthpcm=564599, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.091125.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016A62188FE8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016A62189BB8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016A62189BB8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016A62188778
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016A62188778
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016A62188928
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016A62188928
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016A62188AD8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016A62188AD8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016A62189198
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016A62189198
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] SoundI::release                          : Bass Scatterer II 1 (0000016AC4C62108)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016AC588FB88)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016AC4C667E8)
+[LOG] SoundI::release                          : Ambient Scatterer #2 (0000016AC4C61028)
+[LOG] SoundI::release                          :     Ambient Scatterer #2 (0000016AC588E4C8)
+[LOG] SoundI::release                          :     Ambient Scatterer #2 (0000016AC4C5DD88)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C61BF8 : node = 0000016A3D57CAB0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C61BF8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 530432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5120
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     filename = FMOD Proj\Build\Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57CBC0
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016AC4C62108 : node = 0000016A3D57D230
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='door-close-1', format=5, channels=2, frequency=48000, lengthbytes=29376, lengthpcm=111066, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.029313.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C61BF8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C62108
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 530432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5120
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D340
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Level Complete', format=5, channels=2, frequency=48000, lengthbytes=91200, lengthpcm=867899, pcmblocksize=0, loopstart=0, loopend=115199, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.339618.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C62108
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C5E7A8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C5E7A8
+[LOG] SoundI::release                          : Mid Lead 2 (0000016AC4C5F6D8)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016AC588F6A8)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016AC4C5F888)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C667E8 : node = 0000016A3D57D730
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C667E8
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016A626DCDF8 : node = 0000016A3D57DAF0
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D840
+[LOG] SystemI::createSound                     :     filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016A626DD668 : node = 0000016A3D57CD30
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 1
+[LOG] SystemI::createSound                     :     filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016A626DDB78 : node = 0000016A3D57C470
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 2
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Scatterer #3', format=5, channels=2, frequency=48000, lengthbytes=283104, lengthpcm=1229700, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.226044.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C667E8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016A626DCDF8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57DC00
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass 1', format=5, channels=2, frequency=48000, lengthbytes=311264, lengthpcm=1262700, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.227112.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016A626DCDF8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016A626DD668
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57CE40
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Ambient Scatterer #3', format=5, channels=2, frequency=48000, lengthbytes=143520, lengthpcm=600599, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.101410.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016A626DD668
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016A626DDB78
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57C580
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='BassII 1', format=5, channels=2, frequency=48000, lengthbytes=357184, lengthpcm=1413299, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.272034.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016A626DDB78
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016A1B231C48
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016A1B231C48
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016A1B232D28
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016A1B232D28
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016A1B232668
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016A1B232668
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016A1B2313D8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016A1B2313D8
+[LOG] SoundI::release                          : Ambient Scatterer 1 (0000016A62188FE8)
+[LOG] SoundI::release                          :     Ambient Scatterer 1 (0000016AC300A738)
+[LOG] SoundI::release                          :     Ambient Scatterer 1 (0000016A62189198)
+[LOG] SoundI::release                          : Bass 1 (0000016AC4C60968)
+[LOG] SoundI::release                          :     Bass 1 (0000016AC300E698)
+[LOG] SoundI::release                          :     Bass 1 (0000016A62188AD8)
+[LOG] SoundI::release                          : High Scatterer #3 (0000016AC4C5E958)
+[LOG] SoundI::release                          :     High Scatterer #3 (0000016AC300F1F8)
+[LOG] SoundI::release                          :     High Scatterer #3 (0000016A62188928)
+[LOG] SoundI::release                          : Bass Scatterer II 1 (0000016AC4C63C08)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016AC300C7B8)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016A62188778)
+[LOG] SoundI::release                          : Mid Lead 2 (0000016AC4C5E448)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016AC300C478)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016A62189BB8)
+[LOG] SoundI::release                          : High Lead 1 (0000016AC3BA8B98)
+[LOG] SoundI::release                          :     High Lead 1 (0000016AC300E4F8)
+[LOG] SoundI::release                          :     High Lead 1 (0000016AC4C6A148)
+[LOG] SoundI::release                          : Mid Lead 2 (0000016AC3BA75A8)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016AC300D998)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016AC3BA9408)
+[LOG] SoundI::release                          : High Lead 1 (0000016AC3B9C7D8)
+[LOG] SoundI::release                          :     High Lead 1 (0000016AC3009F18)
+[LOG] SoundI::release                          :     High Lead 1 (0000016AC3B9FC28)
+[LOG] SoundI::release                          : BassII 2 (0000016AC4C638A8)
+[LOG] SoundI::release                          :     BassII 2 (0000016AC588DCA8)
+[LOG] SoundI::release                          :     BassII 2 (0000016AC3B9CE98)
+[LOG] SoundI::release                          : Bass Scatterer II 1 (0000016AC4C63398)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016AC300D318)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016AC4C607B8)
+[LOG] SoundI::release                          : Bass Scatterer II 1 (0000016AC3B9A2B8)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016AC300CE38)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016AC3BA24A8)
+[LOG] SoundI::release                          : High Lead 1 (0000016AC4C5E0E8)
+[LOG] SoundI::release                          :     High Lead 1 (0000016AC588F848)
+[LOG] SoundI::release                          :     High Lead 1 (0000016AC4C5FBE8)
+[LOG] SoundI::release                          : Bass Lead 1 (0000016AC4C627C8)
+[LOG] SoundI::release                          :     Bass Lead 1 (0000016AC588CAC8)
+[LOG] SoundI::release                          :     Bass Lead 1 (0000016AC4C62B28)
+[LOG] SoundI::release                          : door-close-1 (0000016AC4C61BF8)
+[LOG] SoundI::release                          :     door-close-1 (0000016AC300F058)
+[LOG] SoundI::release                          :     door-close-1 (0000016AC4C5DD88)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C63F68 : node = 0000016A3D57C6F0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C63F68
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 530432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5120
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57C800
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Spin Right', format=5, channels=2, frequency=48000, lengthbytes=150208, lengthpcm=631799, pcmblocksize=0, loopstart=0, loopend=115199, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.150604.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C63F68
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C5EE68
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C5EE68
+[LOG] SoundI::release                          : Spin Right (0000016AC3B9E998)
+[LOG] SoundI::release                          :     Spin Right (0000016AC300D178)
+[LOG] SoundI::release                          :     Spin Right (0000016AC3B9F8C8)
+[LOG] SoundI::release                          : Spin Left (0000016AC3B9B038)
+[LOG] SoundI::release                          :     Spin Left (0000016AC300DCD8)
+[LOG] SoundI::release                          :     Spin Left (0000016AC3B9E488)
+[LOG] SoundI::release                          : Spin Right (0000016AC3BA5748)
+[LOG] SoundI::release                          :     Spin Right (0000016AC300ED18)
+[LOG] SoundI::release                          :     Spin Right (0000016AC3BA5FB8)
+[LOG] SoundI::release                          : Spin Right (0000016AC3BA6168)
+[LOG] SoundI::release                          :     Spin Right (0000016AC300E358)
+[LOG] SoundI::release                          :     Spin Right (0000016AC3BA6828)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C62468 : node = 0000016A3D57C830
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C62468
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57C940
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Scatterer #2', format=5, channels=2, frequency=48000, lengthbytes=320384, lengthpcm=1438199, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.234558.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C62468
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C638A8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C638A8
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C60B18 : node = 0000016A3D57DC30
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C60B18
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 530432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5120
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57DD40
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Spin Right', format=5, channels=2, frequency=48000, lengthbytes=150208, lengthpcm=631799, pcmblocksize=0, loopstart=0, loopend=115199, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.150604.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C60B18
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C60968
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C60968
+[LOG] SoundI::release                          : Spin Left (0000016AC4C6B228)
+[LOG] SoundI::release                          :     Spin Left (0000016AC300DB38)
+[LOG] SoundI::release                          :     Spin Left (0000016AC4C651F8)
+[LOG] SoundI::release                          : Spin Left (0000016AC4C5FA38)
+[LOG] SoundI::release                          :     Spin Left (0000016AC300F538)
+[LOG] SoundI::release                          :     Spin Left (0000016AC4C60608)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C63C08 : node = 0000016A3D57D370
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C63C08
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016AC4C60608 : node = 0000016A3D57CE70
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D480
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass 1', format=5, channels=2, frequency=48000, lengthbytes=311264, lengthpcm=1262700, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.227112.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C63C08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C60608
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57CF80
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Mid Lead 2', format=5, channels=2, frequency=48000, lengthbytes=136800, lengthpcm=602099, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.120300.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C60608
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C61A48
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C61A48
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C64478
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C64478
+[LOG] SoundI::release                          : Ambient Scatterer #3 (0000016A626DD668)
+[LOG] SoundI::release                          :     Ambient Scatterer #3 (0000016AC3009D78)
+[LOG] SoundI::release                          :     Ambient Scatterer #3 (0000016A1B232668)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C5DD88 : node = 0000016A3D57CD30
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C5DD88
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57CE40
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Scatterer 1', format=5, channels=2, frequency=48000, lengthbytes=258656, lengthpcm=1146299, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.285248.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C5DD88
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C5FBE8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C5FBE8
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C607B8 : node = 0000016A3D57D9B0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C607B8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57DAC0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Ambient Scatterer 1', format=5, channels=2, frequency=48000, lengthbytes=125280, lengthpcm=564599, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.091125.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C607B8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C5E448
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C5E448
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C61DA8 : node = 0000016A3D57CAB0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C61DA8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57CBC0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Mid Lead 2', format=5, channels=2, frequency=48000, lengthbytes=136800, lengthpcm=602099, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.120300.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C61DA8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C62B28
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C62B28
+[LOG] SoundI::release                          : Spin Right (0000016AC4C63F68)
+[LOG] SoundI::release                          :     Spin Right (0000016AC300F058)
+[LOG] SoundI::release                          :     Spin Right (0000016AC4C5EE68)
+[LOG] SoundI::release                          : Level Complete (0000016AC4C62108)
+[LOG] SoundI::release                          :     Level Complete (0000016AC3009BD8)
+[LOG] SoundI::release                          :     Level Complete (0000016AC4C5E7A8)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C62108 : node = 0000016A3D57CBF0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C62108
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSound                     :     filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016AC4C63398 : node = 0000016A3D57C0B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57CD00
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016AC4C63F68 : node = 0000016A3D57D870
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 1
+[LOG] SystemI::createSound                     :     filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016AC4C662D8 : node = 0000016A3D57D230
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 2
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='BassII 2', format=5, channels=2, frequency=48000, lengthbytes=337792, lengthpcm=1364699, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.147949.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C62108
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C63398
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57C1C0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Scatterer II 1', format=5, channels=2, frequency=48000, lengthbytes=141056, lengthpcm=525600, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.186768.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C63398
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C63F68
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D980
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass 1', format=5, channels=2, frequency=48000, lengthbytes=311264, lengthpcm=1262700, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.227112.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C63F68
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C662D8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D340
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='High Lead 1 #2', format=5, channels=2, frequency=48000, lengthbytes=205632, lengthpcm=909600, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.025208.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C662D8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C6A148
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C6A148
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C6B228
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C6B228
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C651F8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C651F8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA6828
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA6828
+[LOG] SoundI::release                          : Spin Right (0000016AC4C60B18)
+[LOG] SoundI::release                          :     Spin Right (0000016AC30096F8)
+[LOG] SoundI::release                          :     Spin Right (0000016AC4C60968)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC3BA1F98 : node = 0000016A3D57CFB0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA1F98
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D0C0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Scatterer #2', format=5, channels=2, frequency=48000, lengthbytes=320384, lengthpcm=1438199, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.234558.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA1F98
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA5748
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA5748
+[LOG] SoundI::release                          : Mid Lead 2 (0000016AC4C60608)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016AC300C7B8)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016AC4C64478)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC3BA5E08 : node = 0000016A3D57D4B0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA5E08
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D5C0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Scatterer II 1', format=5, channels=2, frequency=48000, lengthbytes=141056, lengthpcm=525600, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.186768.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA5E08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA5FB8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA5FB8
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC3BA75A8 : node = 0000016A3D57CE70
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA75A8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57CF80
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Ambient Scatterer #2', format=5, channels=2, frequency=48000, lengthbytes=139296, lengthpcm=575099, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.103882.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA75A8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA69D8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA69D8
+[LOG] SoundI::release                          : Ambient Scatterer 1 (0000016AC4C607B8)
+[LOG] SoundI::release                          :     Ambient Scatterer 1 (0000016AC300A738)
+[LOG] SoundI::release                          :     Ambient Scatterer 1 (0000016AC4C5E448)
+[LOG] SoundI::release                          : Bass Scatterer #3 (0000016AC4C667E8)
+[LOG] SoundI::release                          :     Bass Scatterer #3 (0000016AC300E9D8)
+[LOG] SoundI::release                          :     Bass Scatterer #3 (0000016A1B231C48)
+[LOG] SoundI::release                          : Bass 1 (0000016A626DCDF8)
+[LOG] SoundI::release                          :     Bass 1 (0000016AC300CFD8)
+[LOG] SoundI::release                          :     Bass 1 (0000016A1B232D28)
+[LOG] SoundI::release                          : Mid Lead 2 (0000016AC4C61DA8)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016AC300A8D8)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016AC4C62B28)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC3BA7908 : node = 0000016A3D57C1F0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA7908
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016AC3BA8B98 : node = 0000016A3D57D9B0
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57C300
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016AC3B9A2B8 : node = 0000016A3D57D0F0
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass 1', format=5, channels=2, frequency=48000, lengthbytes=311264, lengthpcm=1262700, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.227112.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA7908
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3BA8B98
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57DAC0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='High Lead 1 #2', format=5, channels=2, frequency=48000, lengthbytes=205632, lengthpcm=909600, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.025208.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3BA8B98
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9A2B8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D200
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Mid Lead 2', format=5, channels=2, frequency=48000, lengthbytes=136800, lengthpcm=602099, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.120300.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9A2B8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9C7D8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9C7D8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9B038
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9B038
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9CE98
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9CE98
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC3B9E488 : node = 0000016A3D57D5F0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9E488
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D700
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Scatterer II 1', format=5, channels=2, frequency=48000, lengthbytes=141056, lengthpcm=525600, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.186768.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9E488
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9E7E8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9E7E8
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC3B9F208 : node = 0000016A3D57DAF0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9F208
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 530432
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5120
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57DC00
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Spin Left', format=5, channels=2, frequency=48000, lengthbytes=158144, lengthpcm=666899, pcmblocksize=0, loopstart=0, loopend=115199, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.239166.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9F208
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9F8C8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9F8C8
+[LOG] SoundI::release                          : BassII 1 (0000016A626DDB78)
+[LOG] SoundI::release                          :     BassII 1 (0000016AC300F398)
+[LOG] SoundI::release                          :     BassII 1 (0000016A1B2313D8)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC3B9FDD8 : node = 0000016A3D57C330
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC3B9FDD8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57C440
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Scatterer #3', format=5, channels=2, frequency=48000, lengthbytes=283104, lengthpcm=1229700, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.226044.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC3B9FDD8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C61DA8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C61DA8
+[LOG] SoundI::release                          : Bass Scatterer II 1 (0000016AC4C63398)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016AC300AC18)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016AC4C6B228)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C63398 : node = 0000016A3D57DD70
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C63398
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57DE80
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Scatterer II 1', format=5, channels=2, frequency=48000, lengthbytes=141056, lengthpcm=525600, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.186768.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C63398
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C607B8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C607B8
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C627C8 : node = 0000016A3D57CAB0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C627C8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57CBC0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Mid Lead 2', format=5, channels=2, frequency=48000, lengthbytes=136800, lengthpcm=602099, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.120300.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C627C8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C5F018
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C5F018
+[LOG] SoundI::release                          : Bass Scatterer II 1 (0000016AC3BA5E08)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016AC300B5D8)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016AC3BA5FB8)
+[LOG] SoundI::release                          : Bass 1 (0000016AC4C63C08)
+[LOG] SoundI::release                          :     Bass 1 (0000016AC3009898)
+[LOG] SoundI::release                          :     Bass 1 (0000016AC4C61A48)
+[LOG] SoundI::release                          : Bass Scatterer #2 (0000016AC4C62468)
+[LOG] SoundI::release                          :     Bass Scatterer #2 (0000016AC300D178)
+[LOG] SoundI::release                          :     Bass Scatterer #2 (0000016AC4C638A8)
+[LOG] SoundI::release                          : Bass Scatterer 1 (0000016AC4C5DD88)
+[LOG] SoundI::release                          :     Bass Scatterer 1 (0000016AC300F1F8)
+[LOG] SoundI::release                          :     Bass Scatterer 1 (0000016AC4C5FBE8)
+[LOG] SoundI::release                          : Ambient Scatterer #2 (0000016AC3BA75A8)
+[LOG] SoundI::release                          :     Ambient Scatterer #2 (0000016AC300B438)
+[LOG] SoundI::release                          :     Ambient Scatterer #2 (0000016AC3BA69D8)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C6B228 : node = 0000016A3D57CD30
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C6B228
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016AC4C61A48 : node = 0000016A3D57DC30
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57CE40
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass 1', format=5, channels=2, frequency=48000, lengthbytes=311264, lengthpcm=1262700, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.227112.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C6B228
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C61A48
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57DD40
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='BassII 1', format=5, channels=2, frequency=48000, lengthbytes=357184, lengthpcm=1413299, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.272034.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C61A48
+[LOG] SoundI::release                          : High Lead 1 #2 (0000016AC4C662D8)
+[LOG] SoundI::release                          :     High Lead 1 #2 (0000016AC300BAB8)
+[LOG] SoundI::release                          :     High Lead 1 #2 (0000016AC3BA6828)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C5E958
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C5E958
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C60968
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C60968
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C63C08 : node = 0000016A3D57D730
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C63C08
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D840
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Ambient Scatterer #3', format=5, channels=2, frequency=48000, lengthbytes=143520, lengthpcm=600599, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.101410.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C63C08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C5DD88
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C5DD88
+[LOG] SoundI::release                          : Bass Scatterer II 1 (0000016AC3B9E488)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016AC300D998)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016AC3B9E7E8)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C62468 : node = 0000016A3D57D5F0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C62468
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D700
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Scatterer 1', format=5, channels=2, frequency=48000, lengthbytes=258656, lengthpcm=1146299, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.285248.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C62468
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C61BF8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C61BF8
+[LOG] SoundI::release                          : Mid Lead 2 (0000016AC3B9A2B8)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016AC300B778)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016AC3B9CE98)
+[LOG] SoundI::release                          : Spin Left (0000016AC3B9F208)
+[LOG] SoundI::release                          :     Spin Left (0000016AC300D318)
+[LOG] SoundI::release                          :     Spin Left (0000016AC3B9F8C8)
+[LOG] SoundI::release                          : Bass Scatterer II 1 (0000016AC4C63398)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016AC300B298)
+[LOG] SoundI::release                          :     Bass Scatterer II 1 (0000016AC4C607B8)
+[LOG] SoundI::release                          : Bass 1 (0000016AC4C63F68)
+[LOG] SoundI::release                          :     Bass 1 (0000016AC300AF58)
+[LOG] SoundI::release                          :     Bass 1 (0000016AC4C651F8)
+[LOG] SoundI::release                          : Mid Lead 2 (0000016AC4C627C8)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016AC3009558)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016AC4C5F018)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C5F888 : node = 0000016A3D57CE70
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C5F888
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57CF80
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Scatterer #2', format=5, channels=2, frequency=48000, lengthbytes=320384, lengthpcm=1438199, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.234558.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C5F888
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C62B28
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C62B28
+[LOG] SoundI::release                          : BassII 2 (0000016AC4C62108)
+[LOG] SoundI::release                          :     BassII 2 (0000016AC300E838)
+[LOG] SoundI::release                          :     BassII 2 (0000016AC4C6A148)
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C63398 : node = 0000016A3D57D0F0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C63398
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     setdata soundi = 0000016AC4C5E448 : node = 0000016A3D57D230
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D200
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass 1', format=5, channels=2, frequency=48000, lengthbytes=311264, lengthpcm=1262700, pcmblocksize=0, loopstart=0, loopend=460799, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.227112.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C63398
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C5E448
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57D340
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Mid Lead 2', format=5, channels=2, frequency=48000, lengthbytes=136800, lengthpcm=602099, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.120300.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C5E448
+[LOG] SoundI::release                          : High Lead 1 #2 (0000016AC3BA8B98)
+[LOG] SoundI::release                          :     High Lead 1 #2 (0000016AC300B0F8)
+[LOG] SoundI::release                          :     High Lead 1 #2 (0000016AC3B9B038)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C5E0E8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C5E0E8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C627C8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C627C8
+[LOG] SystemI::createSound                     : filename = FMOD Proj\Build\Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000016AC4C63A58 : node = 0000016A3D57CBF0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000016A628AB638.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C63A58
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD Proj\Build\Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7677504
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 109504
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016A3D57CD00
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Ambient Scatterer 1', format=5, channels=2, frequency=48000, lengthbytes=125280, lengthpcm=564599, pcmblocksize=0, loopstart=0, loopend=230399, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.091125.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C63A58
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016AC4C63F68
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016AC4C63F68
+[LOG] SoundI::release                          : Bass Scatterer #2 (0000016AC3BA1F98)
+[LOG] SoundI::release                          :     Bass Scatterer #2 (0000016AC300ADB8)
+[LOG] SoundI::release                          :     Bass Scatterer #2 (0000016AC3BA5748)
+[LOG] SoundI::release                          : Mid Lead 2 (0000016AC4C5E448)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016AC300A738)
+[LOG] SoundI::release                          :     Mid Lead 2 (0000016AC4C627C8)
+[LOG] SoundI::release                          : Bass 1 (0000016AC4C63398)
+[LOG] SoundI::release                          :     Bass 1 (0000016AC300F398)
+[LOG] SoundI::release                          :     Bass 1 (0000016AC4C5E0E8)
+[LOG] SoundI::release                          : BassII 1 (0000016AC4C61A48)
+[LOG] SoundI::release                          :     BassII 1 (0000016AC300B438)
+[LOG] SoundI::release                          :     BassII 1 (0000016AC4C60968)
+[LOG] SoundI::release                          : Bass 1 (0000016AC4C6B228)
+[LOG] SoundI::release                          :     Bass 1 (0000016AC300DE78)
+[LOG] SoundI::release                          :     Bass 1 (0000016AC4C5E958)
+[LOG] SoundI::release                          : Bass 1 (0000016AC3BA7908)
+[LOG] SoundI::release                          :     Bass 1 (0000016AC3009D78)
+[LOG] SoundI::release                          :     Bass 1 (0000016AC3B9C7D8)
+[LOG] SoundI::release                          : Ambient Scatterer 1 (0000016AC4C63A58)
+[LOG] SoundI::release                          :     Ambient Scatterer 1 (0000016AC3009558)
+[LOG] SoundI::release                          :     Ambient Scatterer 1 (0000016AC4C63F68)
+[LOG] SoundI::release                          : Ambient Scatterer #3 (0000016AC4C63C08)
+[LOG] SoundI::release                          :     Ambient Scatterer #3 (0000016AC300B5D8)
+[LOG] SoundI::release                          :     Ambient Scatterer #3 (0000016AC4C5DD88)
+[LOG] SoundI::release                          : Bass Scatterer #2 (0000016AC4C5F888)
+[LOG] SoundI::release                          :     Bass Scatterer #2 (0000016AC300BF98)
+[LOG] SoundI::release                          :     Bass Scatterer #2 (0000016AC4C62B28)
+[LOG] SoundI::release                          : Bass Scatterer 1 (0000016AC4C62468)
+[LOG] SoundI::release                          :     Bass Scatterer 1 (0000016AC300F878)
+[LOG] SoundI::release                          :     Bass Scatterer 1 (0000016AC4C61BF8)
+[LOG] SoundI::release                          : Bass Scatterer #3 (0000016AC3B9FDD8)
+[LOG] SoundI::release                          :     Bass Scatterer #3 (0000016AC300BC58)
+[LOG] SoundI::release                          :     Bass Scatterer #3 (0000016AC4C61DA8)
+[LOG] SoundI::release                          :  (0000016A62A91608)
+[LOG] SoundI::release                          :     Drums 1 (0000016AC588ECE8)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
@@ -32,3 +1171,5 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
